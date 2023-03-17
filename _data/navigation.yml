@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "共同关注"
-    url: /publications/
+    url: /focus_on/
 
   - title: "节目"
-    url: /talks/    
+    url: /tv_show/
 
   - title: "直播"
-    url: /teaching/    
+    url: /live_show/
     
   - title: "VCR"
-    url: /portfolio/
+    url: /vcr/
