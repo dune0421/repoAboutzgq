@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "朱广权节目资源合集"
-title_separator          : "-"
-name                     : &name "朱广权节目资源合集"
+title                    : "朱广权节目资源整理"
+title_separator          : #""
+name                     : &name "朱广权节目资源整理"
 description              : &description "手动整理朱广权节目资源，仅用于方便查找资源"
 url                      : https://dune0421.github.io/repoAboutzgq/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -191,7 +191,7 @@ collections:
 
 # Defaults
 defaults:
-  # _共同关注
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -202,14 +202,14 @@ defaults:
       comments: true
       share: true
       related: true
-  # _节目
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _直播
+  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -218,7 +218,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _vcr
+  # _publications
   - scope:
       path: ""
       type: publications
